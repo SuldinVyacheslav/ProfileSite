@@ -17,8 +17,9 @@ a {
     color: rgb(32, 178, 170);
 }
 
+
 a:hover {
-    color: #000;
+  color: white;
 }
 
 .btn {
@@ -75,6 +76,14 @@ box-shadow: none;
     min-height: 0;
 }
 
+#nbitem:hover
+{
+    background:  linear-gradient(to right,#FD5360,#FACD02);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 button.navbar-toggle .ion-navicon {
     font-size: 2em;
     color: #fff;
@@ -111,11 +120,18 @@ li a
     padding-top: 10px;
 }
 #heading-text h3 {
+    background:  linear-gradient(to right,#FD5360,#FACD02);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    color: #ffd400;
     font-size: 49px;
     font-family: 'Roboto', sans-serif;
     padding-top: 58px;
     text-transform: uppercase;
 }
+
+
 
 #heading-text p {
     font-size: 18px;
@@ -123,10 +139,7 @@ li a
     padding: 5px 0px
 }
 
-.main_content 
-{
-    padding: 50px 0px;
-}
+
 
 iframe
 {
@@ -182,23 +195,20 @@ iframe
 }
 #wrapper
 {
-    background: url(/static/img/Wallpaper.jpg);
+    background: url(/static/img/peakpx.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
-#overlay-1
-{
-    background-color: rgba(40, 40, 40, 0.2);
-    position: relative;
-}
+
 
 .starting-text
 {
-    padding: 1px 50px 350px 20px;
+    text-align: center;
+    padding: 200px 50px 400px 20px;
     font-weight: bold;
     text-shadow: 1px 1px 1px #000;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .rene {
 
@@ -232,6 +242,18 @@ h5
 /*-----------------------------------------------------------------------------------------------------
                             about us
 ------------------------------------------------------------------------------------------------------*/
+.gradient-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 40px;
+  background:  linear-gradient(to right,#FD5360,#FACD02);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.other {
+    font-family: 'Rubik One', sans-serif;
+  font-size: 40px;
+    color: black;
+}
 .exp
 {
     padding-top: 76px;
@@ -254,6 +276,21 @@ h5
 /*----------------------------------------------------------------------------------------------------
 Our service
 -----------------------------------------------------------------------------------------------------*/
+.pjname
+{
+    color: white;
+}
+
+.pjname:hover
+{
+     background:  linear-gradient(to right,#FD5360,#FACD02);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section {
+    padding-bottom: 100px;
+}
+
 .services
 {
     width: 100%;
@@ -323,7 +360,9 @@ hr
 }
 .service:hover .about-service h3 
 {
-    color: rgb(175, 104, 77)
+    background:  linear-gradient(to right,#FD5360,#FACD02);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .service
 {
@@ -414,121 +453,7 @@ hr
 {
     padding-bottom: 50px;
 }
-/*------------------------------------------------------------------------------------------------------
-                                price-table
---------------------------------------------------------------------------------------------------------*/
-.price-column 
-{
-    position: relative;
-    z-index: 999;
-    margin-bottom: 15px;
-}
-.price-column .price-heading 
-{
-    background-color: cadetblue;
-    position: relative;
-    padding: 17px 15px 15px;
-    box-shadow: 0 2px 2px #494946;
-}
-.price-column .price-heading h4 
-{
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 0 1px 1px #41413e;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-.price-column .price-heading .subtitle 
-{
-    color: #ffffff;
-    font-weight: bold;
-    font-style: italic;
-    text-shadow: 0 1px 1px #41413e;
-}
-.price-column .price-heading .price 
-{
-    position: absolute;
-    top: 12px;
-    right: 10px;
-}
-.price-column .price-heading .price .currency 
-{
-    color: white; 
-    font: bold 16px Roboto Condensed,Helvetica,Geneva,sans-serif;
-    font-size: 22px;
-}
-.price-column .price-heading .price .amount
-{
-    color: white;
-    /* text-shadow: 0 1px 1px #b8b8b7; */
-    margin-right: 18px;
-    font-size: 35px;
-}
-.price-column .price-heading .price .cents 
-{
-    color: white;
-    font: bold 16px Roboto Condensed,Helvetica,Geneva,sans-serif;
-    /* text-shadow: 0 1px 1px #b8b8b7; */
-    position: absolute;
-    top: 27px;
-    right: 0;
-}
-.price-content 
-{
-    background-color: rgba(47, 79, 79, 0.71);
-}
-.price-content ul
-{
-    margin: 0px 0px;
-    padding: 0px 0px;
-}
-.price-content ul li:first-child 
-{
-    border-top-width: initial;
-    border-top-style: none;
-    border-top-color: initial;
-}
-.price-content ul li
-{
-    display: block;
-    text-align: center;
-    color: #f7f7f7;
-    list-style: none;
-    border-top: 1px solid #8DBDBD;
-    border-bottom: 1px solid #2F4240;
-    padding: 7px 15px;
-    line-height: 35px;
-    transition: all 0.5s;
-}
 
-.price-column.highlight 
-{
-    margin-top: 0;
-    box-shadow: 0 1px 8px #4d4d4d;
-    position: relative;
-    z-index: 999;
-}
-.price-column.hightligh .price-heading 
-{
-    background: #f85140;
-}
-.price-column.hightligh .price-heading h4, .price-column.hightligh .price-heading .subtitle 
-{
-    color: #ffffff;
-    text-shadow: 0 1px 1px #d61b08;
-}
-.price-column .price-heading .price 
-{
-    position: absolute;
-    top: 12px;
-    right: 10px;
-}
-.price-column.hightligh .price-heading .price .currency, .price-column.hightligh .price-heading .price .amount, .price-column.hightligh .price-heading .price .cents
-{
-    color: #c63f33;
-    text-shadow: 0 1px 1px #f3a39b;
-}
 /*-----------------------------------------------------------------------------------------------------
                                 Blog
 -------------------------------------------------------------------------------------------------------*/
@@ -650,12 +575,29 @@ a
 ----------------------------------------------------------------------------------------------------*/
 .client-name
 {
-    font-style: italic;
-    font-size: 18px;
+    color: #c5efef;
+    font-size: 27px;
+    padding-left: 800px;
+    padding-top: 200px;
 }
 .client-comment 
 {
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 40px;
     padding: 40px 0px 25px 0px;
+
+}
+
+.carousel-inner{
+    border-radius: 40px;
+    background: radial-gradient(ellipse, #01bdda,#0181ae);
+    border-width: 10px;
+    height: 500px;
+}
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
 }
 /* ---------------------------------------------------------------------------------------------------
                             contact
@@ -704,7 +646,7 @@ a
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    opacity: 0.8;
+
 }
 .socials-icons li a i.fa 
 {
@@ -860,15 +802,15 @@ form
 
 .btn-primary {
     color: #fff;
-    background-color: #3acab1;
-    border-radius: 0;
-    border-color: #3acab1;
+    background-color: #FACD02;
+    border-radius: 3px;
+    border-color: #FD5360;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #16a085;
-    border-color: #16a085;
+    background-color: #FD5360;
+    border-color:  #FACD02;
 }
 
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
