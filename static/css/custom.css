@@ -156,7 +156,7 @@ iframe
 {
     border-radius: 0px;
     border: 0;
-    background-color: rgba(0,0,0,0.19);
+    background-color: rgba(0,0,0,0.7);
 }
 .navbar-default .navbar-nav>li>a {
     font-size: 30px;
